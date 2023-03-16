@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.example.loginandsignup.app-mergeDebugResources-33:/layout/activity_festarit.xml",
+        "source": "com.example.loginandsignup.app-main-36:/layout/activity_festarit.xml"
+    },
+    {
+        "merged": "com.example.loginandsignup.app-mergeDebugResources-33:/layout/activity_sign_in.xml",
+        "source": "com.example.loginandsignup.app-main-36:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-mergeDebugResources-33:\\layout\\activity_festarit.xml",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\layout\\activity_festarit.xml"
+    },
+    {
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.loginandsignup.app-mergeDebugResources-33:/layout/activity_sign_up.xml",
+        "source": "com.example.loginandsignup.app-main-36:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-mergeDebugResources-33:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.loginandsignup.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.example.loginandsignup.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-mergeDebugResources-33:\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\layout\\activity_sign_in.xml"
+    }
+]
