@@ -17,5 +17,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,SignInActivity::class.java)
             startActivity(intent)
         }
+
+        val festitClick =findViewById<Button>(R.id.FestaritBtn)
+        festitClick.setOnClickListener {
+            val intent = Intent(this, FestaritActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

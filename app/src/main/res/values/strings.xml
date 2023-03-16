@@ -5,4 +5,18 @@
     <string name="sign_in">Sign In</string>
     <string name="not_registered_yet_sign_up">Not Registered Yet , Sign Up !</string>
     <string name="logout">LogOut</string>
+    <string name="rockfest_2023">Rockfest 2023</string>
+    <string name="hanko_sommarfest">Hanko Sommarfest</string>
+    <string name="nummirock_metal_festival">Nummirock metal Festival</string>
+    <string name="himos_juhannus_2023">Himos Juhannus 2023</string>
+    <string name="provinssi_2023">Provinssi 2023</string>
+    <string name="iskelm_festivaali">Iskelmä Festivaali</string>
+    <string name="tuska_festival">Tuska Festival</string>
+    <string name="ruisrock_2023">Ruisrock 2023</string>
+    <string name="suomi_pop_festivaalit">Suomi Pop Festivaalit</string>
+    <string name="qstock_2023">Qstock 2023</string>
+    <string name="kotkan_merip_iv_t">Kotkan Meripäivät</string>
+    <string name="flow_festival">Flow Festival</string>
+    <string name="blockfest_2023">Blockfest 2023</string>
+    <string name="festarit">Festarit</string>
 </resources>
