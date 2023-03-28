@@ -20,7 +20,7 @@ class SignInActivity : AppCompatActivity() {
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Skip nappi kirjautumisen ohittamiseksi
+        // Skip-nappi kirjautumisen ohittamiseksi
         binding.skipButton.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

@@ -12,6 +12,14 @@ class FestaritActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_festarit)
 
+        val openCardClick = findViewById<Button>(R.id.RockfestBtn)
+        openCardClick.setOnClickListener {
+            val intent = Intent(this, CardActivity::class.java)
+            this.startActivity(intent)
+        }
+
+
+/*
         val rockfestClick = findViewById<Button>(R.id.RockfestBtn)
         rockfestClick.setOnClickListener {
             val url = "https://rockfest.fi/"
@@ -19,7 +27,7 @@ class FestaritActivity : AppCompatActivity() {
             i.data = Uri.parse(url)
             startActivity(i)
         }
-
+*/
         val hankoClick = findViewById<Button>(R.id.HankoBtn)
         hankoClick.setOnClickListener {
             val url = "https://hankosommarfest.fi/"
