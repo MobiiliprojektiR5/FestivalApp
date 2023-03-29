@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable baseline_home_24
+drawable baseline_settings_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable outline_compass_calibration_24
+id bottomNavigationView
+id compass
+id frame_layout
+id home
+id settings
+layout activity_main
+layout fragment_compass
+layout fragment_home
+layout fragment_settings
+menu bottom_nav
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string hello_blank_fragment
+style Theme.Festariappi300
+xml backup_rules
+xml data_extraction_rules
