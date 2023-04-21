@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FestaritActivity"
+    android:background="@drawable/img_3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+
+
+        android:layout_width="320dp"
+        android:layout_height="640dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/BlockBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/blockfest_2023"
+
+            />
+
+        <Button
+            android:id="@+id/FolkBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="Bättre Folk" />
+
+        <Button
+            android:id="@+id/DownBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="Down By The Laituri" />
+
+        <Button
+            android:id="@+id/FlowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/flow_festival" />
+
+        <Button
+            android:id="@+id/HimosBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/himos_juhannus_2023" />
+
+        <Button
+            android:id="@+id/KotkanBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/kotkan_merip_iv_t" />
+
+        <Button
+            android:id="@+id/NummirockBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/nummirock_metal_festival" />
+
+        <Button
+            android:id="@+id/ProvinssiBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/provinssi_2023" />
+
+        <Button
+            android:id="@+id/QstockBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/qstock_2023" />
+
+        <Button
+            android:id="@+id/RockfestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/rockfest_2023" />
+
+        <Button
+            android:id="@+id/RuisBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/ruisrock_2023" />
+
+        <Button
+            android:id="@+id/TuskaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B40486"
+            android:layout_margin="10dp"
+            android:text="@string/tuska_festival" />
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
