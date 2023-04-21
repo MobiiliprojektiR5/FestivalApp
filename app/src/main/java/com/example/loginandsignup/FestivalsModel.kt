@@ -12,6 +12,7 @@ data class Festival(
 
 @Serializable
 data class FestivalDetails(
+    val date: String ="",
     val dateend: String = "",
     val datestart: String = "",
     val imageurl: String = "",

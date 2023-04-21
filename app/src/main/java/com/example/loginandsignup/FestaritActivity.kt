@@ -1,7 +1,6 @@
 package com.example.loginandsignup
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -16,23 +15,7 @@ class FestaritActivity : AppCompatActivity() {
         openCardClick.setOnClickListener {
             val intent = Intent(this, CardActivity::class.java)
             intent.putExtra("FESTIVAL", "Rockfest")
-            this.startActivity(intent)
-        }
-
-
-/*
-        val rockfestClick = findViewById<Button>(R.id.RockfestBtn)
-        rockfestClick.setOnClickListener {
-            val url = "https://rockfest.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
-        }
-*/
-        val hankoClick = findViewById<Button>(R.id.HankoBtn)
-        hankoClick.setOnClickListener {
-            val intent = Intent(this, CardActivity::class.java)
-            intent.putExtra("FESTIVAL", "Hanko")
+            intent.putExtra("INDEX", 0)
             this.startActivity(intent)
         }
 
@@ -40,89 +23,88 @@ class FestaritActivity : AppCompatActivity() {
         nummiClick.setOnClickListener {
             val intent = Intent(this, CardActivity::class.java)
             intent.putExtra("FESTIVAL", "Nummirock")
+            intent.putExtra("INDEX", 1)
             this.startActivity(intent)
         }
 
         val himoClick = findViewById<Button>(R.id.HimosBtn)
         himoClick.setOnClickListener {
-            val url = "https://himosjuhannus.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Himos")
+            intent.putExtra("INDEX", 2)
+            this.startActivity(intent)
         }
 
-        val iskelmaClick = findViewById<Button>(R.id.IskelmaBtn)
-        iskelmaClick.setOnClickListener {
-            val url = "https://iskelmafestivaali.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+        val battreClick = findViewById<Button>(R.id.FolkBtn)
+        battreClick.setOnClickListener {
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Bättre Folk")
+            intent.putExtra("INDEX", 1)
+            this.startActivity(intent)
         }
 
         val provinssiClick = findViewById<Button>(R.id.ProvinssiBtn)
         provinssiClick.setOnClickListener {
-            val url = "https://www.provinssi.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Provinssi")
+            intent.putExtra("INDEX", 1)
+            this.startActivity(intent)
         }
 
         val tuskaClick = findViewById<Button>(R.id.TuskaBtn)
         tuskaClick.setOnClickListener {
-            val url = "https://www.tuska.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Tuska")
+            intent.putExtra("INDEX", 0)
+            this.startActivity(intent)
         }
 
         val ruisClick = findViewById<Button>(R.id.RuisBtn)
         ruisClick.setOnClickListener {
-            val url = "https://ruisrock.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
-        }
-
-        val suomiClick = findViewById<Button>(R.id.SuomipopBtn)
-        suomiClick.setOnClickListener {
-            val url = "https://suomipopfestivaali.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Ruisrock")
+            intent.putExtra("INDEX", 2)
+            this.startActivity(intent)
         }
 
         val qstockClick = findViewById<Button>(R.id.QstockBtn)
         qstockClick.setOnClickListener {
-            val url = "https://qstock.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Qstock")
+            intent.putExtra("INDEX", 1)
+            this.startActivity(intent)
         }
 
         val kotkaClick = findViewById<Button>(R.id.KotkanBtn)
         kotkaClick.setOnClickListener {
-            val url = "https://meripaivat.com/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
-        }
-
-        val flowClick = findViewById<Button>(R.id.FlowBtn)
-        flowClick.setOnClickListener {
-            val url = "https://www.flowfestival.com/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Kotkan meripäivät")
+            intent.putExtra("INDEX", 2)
+            this.startActivity(intent)
         }
 
         val blockClick = findViewById<Button>(R.id.BlockBtn)
         blockClick.setOnClickListener {
-            val url = "https://www.blockfest.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Blockfest")
+            intent.putExtra("INDEX", 0)
+            this.startActivity(intent)
         }
 
+        val laituriClick = findViewById<Button>(R.id.DownBtn)
+        laituriClick.setOnClickListener {
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Down By The Laituri")
+            intent.putExtra("INDEX", 2)
+            this.startActivity(intent)
+        }
+        val flowClick = findViewById<Button>(R.id.FlowBtn)
+        flowClick.setOnClickListener {
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Flow")
+            intent.putExtra("INDEX", 0)
+            this.startActivity(intent)
+        }
     }
 
 }
