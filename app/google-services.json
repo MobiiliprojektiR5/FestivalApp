@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "1060222168993",
+    "firebase_url": "https://loginandsignup-1c003-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "loginandsignup-1c003",
     "storage_bucket": "loginandsignup-1c003.appspot.com"
   },
@@ -14,7 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "1060222168993-hq4tjusdgkrj27kk1ooaqdpmfr30t36k.apps.googleusercontent.com",
+          "client_id": "1060222168993-0du85no1lstspu17ulilf6o26veso7n5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +28,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1060222168993-hq4tjusdgkrj27kk1ooaqdpmfr30t36k.apps.googleusercontent.com",
+              "client_id": "1060222168993-0du85no1lstspu17ulilf6o26veso7n5.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -7,7 +7,7 @@
     tools:ignore="MissingDefaultResource">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/festivalImage"
         android:layout_width="334dp"
         android:layout_height="238dp"
         android:layout_marginTop="80dp"
@@ -29,6 +29,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/festivalDate"
+        android:layout_width="344dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="370dp"
+        android:text="Festarin ajankohta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
         android:id="@+id/festivalInfo"
         android:layout_width="346dp"
         android:layout_height="180dp"
@@ -40,7 +51,7 @@
         app:layout_constraintTop_toBottomOf="@+id/festivalName" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonLink"
         android:layout_width="163dp"
         android:layout_height="61dp"
         android:text="Nettisivuille"

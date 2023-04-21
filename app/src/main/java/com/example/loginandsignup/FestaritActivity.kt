@@ -2,9 +2,9 @@ package com.example.loginandsignup
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 
 class FestaritActivity : AppCompatActivity() {
@@ -15,6 +15,7 @@ class FestaritActivity : AppCompatActivity() {
         val openCardClick = findViewById<Button>(R.id.RockfestBtn)
         openCardClick.setOnClickListener {
             val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Rockfest")
             this.startActivity(intent)
         }
 
@@ -30,18 +31,16 @@ class FestaritActivity : AppCompatActivity() {
 */
         val hankoClick = findViewById<Button>(R.id.HankoBtn)
         hankoClick.setOnClickListener {
-            val url = "https://hankosommarfest.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Hanko")
+            this.startActivity(intent)
         }
 
         val nummiClick = findViewById<Button>(R.id.NummirockBtn)
         nummiClick.setOnClickListener {
-            val url = "https://www.nummirock.fi/"
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Nummirock")
+            this.startActivity(intent)
         }
 
         val himoClick = findViewById<Button>(R.id.HimosBtn)
