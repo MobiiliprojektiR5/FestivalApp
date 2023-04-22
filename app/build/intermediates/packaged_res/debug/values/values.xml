@@ -8,10 +8,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFC801</color>
+    <string name="addfavorite">addFavorite</string>
     <string name="app_name">LoginAndSignUp</string>
     <string name="blockfest_2023">Blockfest 2023</string>
-    <string name="default_web_client_id" translatable="false">1060222168993-hq4tjusdgkrj27kk1ooaqdpmfr30t36k.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">1060222168993-0du85no1lstspu17ulilf6o26veso7n5.apps.googleusercontent.com</string>
+    <string name="favoriterock">favoriteRock</string>
+    <string name="favorites">Favorites</string>
     <string name="festarit">Festarit</string>
+    <string name="festivals">Festivals</string>
+    <string name="firebase_database_url" translatable="false">https://loginandsignup-1c003-default-rtdb.europe-west1.firebasedatabase.app</string>
     <string name="flow_festival">Flow Festival</string>
     <string name="gcm_defaultSenderId" translatable="false">1060222168993</string>
     <string name="google_api_key" translatable="false">AIzaSyD2LbfKcIMJu8J3O4Q8p7C7NrXhVry9TL8</string>
@@ -25,9 +30,11 @@
     <string name="logout">LogOut</string>
     <string name="not_registered_yet_sign_up">Not Registered Yet , Sign Up !</string>
     <string name="nummirock_metal_festival">Nummirock metal Festival</string>
+    <string name="oulu">Oulu</string>
     <string name="project_id" translatable="false">loginandsignup-1c003</string>
     <string name="provinssi_2023">Provinssi 2023</string>
     <string name="qstock_2023">Qstock 2023</string>
+    <string name="removefavorite">removeFavorite</string>
     <string name="rockfest_2023">Rockfest 2023</string>
     <string name="ruisrock_2023">Ruisrock 2023</string>
     <string name="sign_in">Sign In</string>

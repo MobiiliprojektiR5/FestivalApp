@@ -965,6 +965,10 @@ attr rotationCenterId
 attr round
 attr roundPercent
 attr saturation
+attr sb_handlerColor
+attr sb_horizontal
+attr sb_indicatorColor
+attr sb_indicatorTextColor
 attr scaleFromTextSize
 attr scopeUris
 attr scrimAnimationDuration
@@ -1323,6 +1327,8 @@ color browser_actions_text_color
 color browser_actions_title_color
 color button_material_dark
 color button_material_light
+color call_notification_answer_color
+color call_notification_decline_color
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -1908,6 +1914,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2637,6 +2644,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -2726,6 +2737,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_festival
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2753,6 +2765,10 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable default_scroll_handle_bottom
+drawable default_scroll_handle_left
+drawable default_scroll_handle_right
+drawable default_scroll_handle_top
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2761,8 +2777,16 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
+drawable ic_call_answer
+drawable ic_call_answer_low
+drawable ic_call_answer_video
+drawable ic_call_answer_video_low
+drawable ic_call_decline
+drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_favorite_border_red
+drawable ic_favorite_filled_red
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2774,6 +2798,11 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable img
+drawable img_1
+drawable img_2
+drawable img_3
+drawable logo
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2855,12 +2884,24 @@ id BOTTOM_END
 id BOTTOM_START
 id BlockBtn
 id CTRL
+id CdBlock_text
+id CdDown_text
+id CdFlow_text
+id CdFolk_text
+id CdHimos_text
+id CdKotka_text
+id CdNummi_text
+id CdProvinssi_text
+id CdQstock_text
+id CdRock_text
+id CdRuis_text
+id CdTuska_text
+id DownBtn
 id FUNCTION
 id FestaritBtn
 id FlowBtn
-id HankoBtn
+id FolkBtn
 id HimosBtn
-id IskelmaBtn
 id KotkanBtn
 id LogOutBtn
 id META
@@ -2876,7 +2917,6 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SignUpbtn
-id SuomipopBtn
 id TOP_END
 id TOP_START
 id TuskaBtn
@@ -2914,6 +2954,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -2937,6 +2978,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addFavBtn
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2971,9 +3013,12 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id buttonBack
+id buttonLink
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
 id carryVelocity
 id center
@@ -3014,12 +3059,15 @@ id customPanel
 id cut
 id dark
 id date_picker_actions
+id dateendTv
+id datestartTv
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descriptionTv
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3053,12 +3101,19 @@ id emailLayout
 id embed
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id favoriteRv
+id favoritesLabelTv
+id festivalDate
+id festivalImage
+id festivalInfo
+id festivalName
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3143,6 +3198,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id media_actions
 id message
 id middle
 id mini
@@ -3212,6 +3268,8 @@ id passwordLayout
 id password_toggle
 id path
 id pathRelative
+id pdfRl
+id pdfView
 id peekHeight
 id percent
 id pin
@@ -3220,9 +3278,11 @@ id postLayout
 id pressed
 id progress_circular
 id progress_horizontal
+id progressbar
 id radio
 id ratio
 id rectangles
+id removeFavBtn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3300,10 +3360,12 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
 id submit_area
+id suosikitBtn
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -3340,11 +3402,13 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleTv
 id title_template
 id toggle
 id top
 id topPanel
 id touch_outside
+id townTv
 id transitionToEnd
 id transitionToStart
 id transition_current_scene
@@ -3484,6 +3548,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_card
+layout activity_favorites
 layout activity_festarit
 layout activity_main
 layout activity_sign_in
@@ -3559,10 +3625,20 @@ layout mtrl_search_bar
 layout mtrl_search_view
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout row_pdf_favorite
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3598,6 +3674,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string addfavorite
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3608,6 +3685,13 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string call_notification_answer_action
+string call_notification_answer_video_action
+string call_notification_decline_action
+string call_notification_hang_up_action
+string call_notification_incoming_text
+string call_notification_ongoing_text
+string call_notification_screening_text
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3640,7 +3724,11 @@ string fab_transformation_sheet_behavior
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string favoriterock
+string favorites
 string festarit
+string festivals
+string firebase_database_url
 string flow_festival
 string gcm_defaultSenderId
 string google_api_key
@@ -3752,6 +3840,7 @@ string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string not_registered_yet_sign_up
 string nummirock_metal_festival
+string oulu
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3760,6 +3849,7 @@ string path_password_strike_through
 string project_id
 string provinssi_2023
 string qstock_2023
+string removefavorite
 string rockfest_2023
 string ruisrock_2023
 string search_menu_title
@@ -4214,9 +4304,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -4990,6 +5085,7 @@ styleable RangeSlider minSeparation values
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
 styleable ScrimInsetsFrameLayout insetForeground
+styleable ScrollBar sb_handlerColor sb_horizontal sb_indicatorColor sb_indicatorTextColor
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchBar android_textAppearance android_text android_hint defaultMarginsEnabled defaultScrollFlagsEnabled elevation forceDefaultNavigationOnClickListener hideNavigationIcon navigationIconTint strokeColor strokeWidth tintNavigationIcon
 styleable SearchView android_textAppearance android_focusable android_maxWidth android_text android_hint android_inputType android_imeOptions animateMenuItems animateNavigationIcon autoShowKeyboard closeIcon commitIcon defaultQueryHint goIcon headerLayout hideNavigationIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon searchPrefixText submitBackground suggestionRowLayout useDrawerArrowDrawable voiceIcon

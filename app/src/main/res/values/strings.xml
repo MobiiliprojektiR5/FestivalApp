@@ -19,4 +19,11 @@
     <string name="flow_festival">Flow Festival</string>
     <string name="blockfest_2023">Blockfest 2023</string>
     <string name="festarit">Festarit</string>
+    <string name="festivals">Festivals</string>
+    <string name="favorites">Favorites</string>
+    <string name="removefavorite">removeFavorite</string>
+    <string name="oulu">Oulu</string>
+    <string name="favoriterock">favoriteRock</string>
+    <string name="addfavorite">addFavorite</string>
+    <string name="favorite_festivals">Favorite Festivals</string>
 </resources>

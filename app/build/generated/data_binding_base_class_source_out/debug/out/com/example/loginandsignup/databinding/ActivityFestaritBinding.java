@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,16 +24,52 @@ public final class ActivityFestaritBinding implements ViewBinding {
   public final Button BlockBtn;
 
   @NonNull
+  public final TextView CdBlockText;
+
+  @NonNull
+  public final TextView CdDownText;
+
+  @NonNull
+  public final TextView CdFlowText;
+
+  @NonNull
+  public final TextView CdFolkText;
+
+  @NonNull
+  public final TextView CdHimosText;
+
+  @NonNull
+  public final TextView CdKotkaText;
+
+  @NonNull
+  public final TextView CdNummiText;
+
+  @NonNull
+  public final TextView CdProvinssiText;
+
+  @NonNull
+  public final TextView CdQstockText;
+
+  @NonNull
+  public final TextView CdRockText;
+
+  @NonNull
+  public final TextView CdRuisText;
+
+  @NonNull
+  public final TextView CdTuskaText;
+
+  @NonNull
+  public final Button DownBtn;
+
+  @NonNull
   public final Button FlowBtn;
 
   @NonNull
-  public final Button HankoBtn;
+  public final Button FolkBtn;
 
   @NonNull
   public final Button HimosBtn;
-
-  @NonNull
-  public final Button IskelmaBtn;
 
   @NonNull
   public final Button KotkanBtn;
@@ -53,29 +90,41 @@ public final class ActivityFestaritBinding implements ViewBinding {
   public final Button RuisBtn;
 
   @NonNull
-  public final Button SuomipopBtn;
-
-  @NonNull
   public final Button TuskaBtn;
 
   private ActivityFestaritBinding(@NonNull ConstraintLayout rootView, @NonNull Button BlockBtn,
-      @NonNull Button FlowBtn, @NonNull Button HankoBtn, @NonNull Button HimosBtn,
-      @NonNull Button IskelmaBtn, @NonNull Button KotkanBtn, @NonNull Button NummirockBtn,
-      @NonNull Button ProvinssiBtn, @NonNull Button QstockBtn, @NonNull Button RockfestBtn,
-      @NonNull Button RuisBtn, @NonNull Button SuomipopBtn, @NonNull Button TuskaBtn) {
+      @NonNull TextView CdBlockText, @NonNull TextView CdDownText, @NonNull TextView CdFlowText,
+      @NonNull TextView CdFolkText, @NonNull TextView CdHimosText, @NonNull TextView CdKotkaText,
+      @NonNull TextView CdNummiText, @NonNull TextView CdProvinssiText,
+      @NonNull TextView CdQstockText, @NonNull TextView CdRockText, @NonNull TextView CdRuisText,
+      @NonNull TextView CdTuskaText, @NonNull Button DownBtn, @NonNull Button FlowBtn,
+      @NonNull Button FolkBtn, @NonNull Button HimosBtn, @NonNull Button KotkanBtn,
+      @NonNull Button NummirockBtn, @NonNull Button ProvinssiBtn, @NonNull Button QstockBtn,
+      @NonNull Button RockfestBtn, @NonNull Button RuisBtn, @NonNull Button TuskaBtn) {
     this.rootView = rootView;
     this.BlockBtn = BlockBtn;
+    this.CdBlockText = CdBlockText;
+    this.CdDownText = CdDownText;
+    this.CdFlowText = CdFlowText;
+    this.CdFolkText = CdFolkText;
+    this.CdHimosText = CdHimosText;
+    this.CdKotkaText = CdKotkaText;
+    this.CdNummiText = CdNummiText;
+    this.CdProvinssiText = CdProvinssiText;
+    this.CdQstockText = CdQstockText;
+    this.CdRockText = CdRockText;
+    this.CdRuisText = CdRuisText;
+    this.CdTuskaText = CdTuskaText;
+    this.DownBtn = DownBtn;
     this.FlowBtn = FlowBtn;
-    this.HankoBtn = HankoBtn;
+    this.FolkBtn = FolkBtn;
     this.HimosBtn = HimosBtn;
-    this.IskelmaBtn = IskelmaBtn;
     this.KotkanBtn = KotkanBtn;
     this.NummirockBtn = NummirockBtn;
     this.ProvinssiBtn = ProvinssiBtn;
     this.QstockBtn = QstockBtn;
     this.RockfestBtn = RockfestBtn;
     this.RuisBtn = RuisBtn;
-    this.SuomipopBtn = SuomipopBtn;
     this.TuskaBtn = TuskaBtn;
   }
 
@@ -112,27 +161,99 @@ public final class ActivityFestaritBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.CdBlock_text;
+      TextView CdBlockText = ViewBindings.findChildViewById(rootView, id);
+      if (CdBlockText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdDown_text;
+      TextView CdDownText = ViewBindings.findChildViewById(rootView, id);
+      if (CdDownText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdFlow_text;
+      TextView CdFlowText = ViewBindings.findChildViewById(rootView, id);
+      if (CdFlowText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdFolk_text;
+      TextView CdFolkText = ViewBindings.findChildViewById(rootView, id);
+      if (CdFolkText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdHimos_text;
+      TextView CdHimosText = ViewBindings.findChildViewById(rootView, id);
+      if (CdHimosText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdKotka_text;
+      TextView CdKotkaText = ViewBindings.findChildViewById(rootView, id);
+      if (CdKotkaText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdNummi_text;
+      TextView CdNummiText = ViewBindings.findChildViewById(rootView, id);
+      if (CdNummiText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdProvinssi_text;
+      TextView CdProvinssiText = ViewBindings.findChildViewById(rootView, id);
+      if (CdProvinssiText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdQstock_text;
+      TextView CdQstockText = ViewBindings.findChildViewById(rootView, id);
+      if (CdQstockText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdRock_text;
+      TextView CdRockText = ViewBindings.findChildViewById(rootView, id);
+      if (CdRockText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdRuis_text;
+      TextView CdRuisText = ViewBindings.findChildViewById(rootView, id);
+      if (CdRuisText == null) {
+        break missingId;
+      }
+
+      id = R.id.CdTuska_text;
+      TextView CdTuskaText = ViewBindings.findChildViewById(rootView, id);
+      if (CdTuskaText == null) {
+        break missingId;
+      }
+
+      id = R.id.DownBtn;
+      Button DownBtn = ViewBindings.findChildViewById(rootView, id);
+      if (DownBtn == null) {
+        break missingId;
+      }
+
       id = R.id.FlowBtn;
       Button FlowBtn = ViewBindings.findChildViewById(rootView, id);
       if (FlowBtn == null) {
         break missingId;
       }
 
-      id = R.id.HankoBtn;
-      Button HankoBtn = ViewBindings.findChildViewById(rootView, id);
-      if (HankoBtn == null) {
+      id = R.id.FolkBtn;
+      Button FolkBtn = ViewBindings.findChildViewById(rootView, id);
+      if (FolkBtn == null) {
         break missingId;
       }
 
       id = R.id.HimosBtn;
       Button HimosBtn = ViewBindings.findChildViewById(rootView, id);
       if (HimosBtn == null) {
-        break missingId;
-      }
-
-      id = R.id.IskelmaBtn;
-      Button IskelmaBtn = ViewBindings.findChildViewById(rootView, id);
-      if (IskelmaBtn == null) {
         break missingId;
       }
 
@@ -172,21 +293,17 @@ public final class ActivityFestaritBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.SuomipopBtn;
-      Button SuomipopBtn = ViewBindings.findChildViewById(rootView, id);
-      if (SuomipopBtn == null) {
-        break missingId;
-      }
-
       id = R.id.TuskaBtn;
       Button TuskaBtn = ViewBindings.findChildViewById(rootView, id);
       if (TuskaBtn == null) {
         break missingId;
       }
 
-      return new ActivityFestaritBinding((ConstraintLayout) rootView, BlockBtn, FlowBtn, HankoBtn,
-          HimosBtn, IskelmaBtn, KotkanBtn, NummirockBtn, ProvinssiBtn, QstockBtn, RockfestBtn,
-          RuisBtn, SuomipopBtn, TuskaBtn);
+      return new ActivityFestaritBinding((ConstraintLayout) rootView, BlockBtn, CdBlockText,
+          CdDownText, CdFlowText, CdFolkText, CdHimosText, CdKotkaText, CdNummiText,
+          CdProvinssiText, CdQstockText, CdRockText, CdRuisText, CdTuskaText, DownBtn, FlowBtn,
+          FolkBtn, HimosBtn, KotkanBtn, NummirockBtn, ProvinssiBtn, QstockBtn, RockfestBtn, RuisBtn,
+          TuskaBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

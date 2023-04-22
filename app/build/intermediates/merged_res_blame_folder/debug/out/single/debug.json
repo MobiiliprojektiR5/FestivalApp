@@ -1,130 +1,142 @@
 [
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/layout_activity_festarit.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/layout/activity_festarit.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_ic_favorite_border_red.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\ic_favorite_border_red.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/layout_activity_sign_in.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/layout/activity_sign_in.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\layout_activity_festarit.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\layout\\activity_festarit.xml"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/layout/activity_main.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\layout_row_pdf_favorite.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\layout\\row_pdf_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\drawable_signin_screen.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\drawable\\signin_screen.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_ic_favorite_filled_red.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\ic_favorite_filled_red.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.loginandsignup.app-merged_res-36:/layout_activity_festarit.xml.flat",
+        "source": "com.example.loginandsignup.app-main-38:/layout/activity_festarit.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_img_3.jpeg.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\img_3.jpeg"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\layout_activity_festarit.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\layout\\activity_festarit.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\layout_activity_favorites.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\layout\\activity_favorites.xml"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\img_1.png"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/layout_activity_sign_up.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\layout\\activity_sign_in.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_signin_screen.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\signin_screen.xml"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.loginandsignup.app-merged_res-36:/layout_row_pdf_favorite.xml.flat",
+        "source": "com.example.loginandsignup.app-main-38:/layout/row_pdf_favorite.xml"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/xml_backup_rules.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_img.png.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\img.png"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_logo.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\logo.webp"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\drawable_signup_screen.xml.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\drawable\\signup_screen.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.loginandsignup.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.loginandsignup.app-main-36:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\layout_activity_card.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\layout\\activity_card.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_signup_screen.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\signup_screen.xml"
     },
     {
-        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.4\\com.example.loginandsignup.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_bg_festival.jpg.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\bg_festival.jpg"
+    },
+    {
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable_img_2.png.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable\\img_2.png"
+    },
+    {
+        "merged": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-merged_res-36:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\janne\\.gradle\\daemon\\7.5\\com.example.loginandsignup.app-main-38:\\drawable-v24\\ic_launcher_foreground.xml"
     }
 ]
