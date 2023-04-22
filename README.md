@@ -1,2 +1,7 @@
-# FestariAppi
-Festari appi jolla pystyy näkemään kaverin sijainnin festareilla ja pystyy katsomaan sään ja tulevan ohjelman festarilla.
+# Festivaalisovellus
+Android-sovellus, jonka avulla käyttäjä voi selata listaa Suomessa järjestettävistä festivaalitapahtumista. 
+
+## Ominaisuudet
+
+## Lähteet
+Kuvat: Creative Commons
