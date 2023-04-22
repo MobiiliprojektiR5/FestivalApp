@@ -1,0 +1,28 @@
+package com.example.loginandsignup.activities
+
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class Festival(
+    val Names: Map<String, FestivalDetails> = emptyMap()
+) {
+    // Non-argument constructor
+    constructor() : this(emptyMap())
+}
+
+@Serializable
+data class FestivalDetails(
+    val date: String ="",
+    val dateend: String = "",
+    val datestart: String = "",
+    val imageurl: String = "",
+    val infotext: String = "",
+    val locationaddress: String = "",
+    val locationtown: String = "",
+    val name: String = "",
+    val ticket: String = "",
+    val webpage: String = ""
+) {
+    // Non-argument constructor
+    constructor() : this("", "", "", "", "", "", "", "", "")
+}
