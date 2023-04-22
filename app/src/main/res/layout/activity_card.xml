@@ -28,8 +28,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="@color/white"
+        android:textColor="#B40486"
         android:textSize="10pt"
+        android:textStyle="bold"
         />
 
     <TextView
@@ -81,7 +82,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.89"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="#B40486"
+        android:backgroundTint="#1C1C1C"
         app:layout_constraintTop_toBottomOf="@+id/festivalInfo"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -105,6 +105,52 @@ class FestaritActivity : AppCompatActivity() {
             intent.putExtra("INDEX", 0)
             this.startActivity(intent)
         }
+
+        val iloClick = findViewById<Button>(R.id.IloBtn)
+        iloClick.setOnClickListener {
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Ilovaari")
+            intent.putExtra("INDEX", 1)
+            this.startActivity(intent)
+        }
+
+        val karjuClick = findViewById<Button>(R.id.KarjuBtn)
+        karjuClick.setOnClickListener {
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Karjurock")
+            intent.putExtra("INDEX", 2)
+            this.startActivity(intent)
+        }
+
+        val pikiClick = findViewById<Button>(R.id.PikiBtn)
+        pikiClick.setOnClickListener {
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Pikipop")
+            intent.putExtra("INDEX", 2)
+            this.startActivity(intent)
+        }
+
+        val sideClick = findViewById<Button>(R.id.SidewaysBtn)
+        sideClick.setOnClickListener {
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Sideways")
+            intent.putExtra("INDEX", 1)
+            this.startActivity(intent)
+        }
+
+        val weekendClick = findViewById<Button>(R.id.WeekendBtn)
+        weekendClick.setOnClickListener {
+            val intent = Intent(this, CardActivity::class.java)
+            intent.putExtra("FESTIVAL", "Weekend")
+            intent.putExtra("INDEX", 1)
+            this.startActivity(intent)
+        }
+
+        val backClick =findViewById<Button>(R.id.BackBtn)
+        backClick.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }
