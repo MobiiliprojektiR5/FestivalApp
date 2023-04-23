@@ -9,16 +9,20 @@ import com.google.firebase.auth.FirebaseAuth
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        /*val options = FirebaseOptions.Builder()
-            .setApplicationId("your-app-id")
-            .setApiKey("your-api-key")
-            .setDatabaseUrl("your-database-url")
-            .build()
-
-        FirebaseApp.initializeApp(this)
-        */
         setContentView(R.layout.activity_main)
 
+        /*
+        val btnCompass = findViewById<Button>(R.id.btnCompass)
+        btnCompass.setOnClickListener {
+            val intent = Intent(this, Compass::class.java)
+            startActivity(intent)
+        }
+        val location = findViewById<Button>(R.id.location)
+        location.setOnClickListener {
+            val intent = Intent(this, MapsActivity::class.java)
+            startActivity(intent)
+        }
+        */
 
         val logOutBtn = findViewById<Button>(R.id.LogOutBtn)
         logOutBtn.setOnClickListener {

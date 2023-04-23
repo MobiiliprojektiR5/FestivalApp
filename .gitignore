@@ -1,5 +1,8 @@
 *.iml
+<<<<<<< HEAD
 app/builds
+=======
+>>>>>>> origin/Compassi2
 .gradle
 /local.properties
 /.idea/caches
@@ -8,7 +11,10 @@ app/builds
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+<<<<<<< HEAD
 app/build
+=======
+>>>>>>> origin/Compassi2
 .DS_Store
 /build
 /captures

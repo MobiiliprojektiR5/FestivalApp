@@ -18,7 +18,11 @@
 
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
+<<<<<<< HEAD
 #-renamesourcefileattribute SourceFile
 -keepclassmembers class com.example.loginandsignup.FestivalModel {
     public <init>();
 }
+=======
+#-renamesourcefileattribute SourceFile
+>>>>>>> origin/Compassi2
