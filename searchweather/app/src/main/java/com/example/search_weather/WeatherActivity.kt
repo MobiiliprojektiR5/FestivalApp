@@ -1,26 +1,51 @@
 package com.example.search_weather
 
 import android.os.AsyncTask
+import android.os.Build
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import android.widget.TextView
+import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import com.example.search_weather.pojo.ModelClass
+import com.google.android.material.textfield.TextInputEditText
 import org.json.JSONObject
 import java.net.URL
 import java.text.SimpleDateFormat
 import java.util.*
 
-class MainActivity : AppCompatActivity() {
+class WeatherActivity : AppCompatActivity() {
 
-    val city: String = "jyvaskyla"
+    val city: String = "Oulu"
     val api: String = "9bd4dfd1b07ffef51326a64f365e12e4" // openweather API key
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_weather)
 
         weatherTask().execute()
+
+        val newLocation: EditText = findViewById(R.id.edit_location)
+        val searchCity: ImageButton = findViewById(R.id.search_icon)
+
+        searchCity.setOnClickListener {
+
+            if (newLocation.toString().isNotEmpty()) {
+
+                    Toast.makeText(applicationContext, "Search function", Toast.LENGTH_SHORT).show()
+
+            }
+        }
+    }
+
+    @RequiresApi(Build.VERSION_CODES.O)
+    private fun setDataOnViews(body: ModelClass?) {
+
+        findViewById<TextInputEditText>(R.id.location_name).setText(body?.name)
 
     }
 
@@ -100,6 +125,5 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
 
 }
